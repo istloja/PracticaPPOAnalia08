@@ -69,6 +69,10 @@ public class Persona {
         objeto.setNombre("Analia");
         System.out.println(objeto.getNombre());
     }
+
+    public Object getMascota() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
     
 

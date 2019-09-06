@@ -3,12 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package fIGURAS;
+package arbol;
 
 /**
  *
  * @author IST- LOJA
  */
-class FigurasBidimencinal {
-    
-}
+public class AbueloM extends Familiares {
+    public AbueloM(){
+        setNombre("Segundo");
+        setEdad(90);
+        setApellido("Japon");
+        setNacimiento(04/26/1931);
+    }
+ 
+ }

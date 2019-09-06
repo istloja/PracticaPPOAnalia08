@@ -3,18 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package fIGURAS;
+package Archivos;
 
 /**
  *
  * @author IST- LOJA
  */
-public class Cuadrado extends FiguraBidimiensional {
-    public double calcular(double lado){
-        return Math.pow(lado, 2);
-    }
-    public double CalcularPerimetro(double lado){
-        return lado+lado+lado+lado;
+class FileWrite {
+
+    FileWrite(String direccion) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
 }

@@ -3,30 +3,27 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package fIGURAS;
+package archivosSerializables;
 
 /**
  *
  * @author IST- LOJA
  */
-public class Circulo extends FigurasBidimencinal {
-    private Object radioMath;
-    public double clacularArea(double radio){
-        return radioMath.pow(Math.PI, 2);
-    }
-    public double CalcularPerimetro(double radio){
-        return radio(2+Math.PI);
-}
+class Equipo {
 
-    private double radio(double d) {
+    public Equipo(String juventus, int i, String turin) {
+    }
+
+    String getNumerotitulos() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
-    double calcularArea(double radio) {
+    String getNombre() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
-    double calcularPerimetro(double radio) {
+    String getCiudad() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+    
 }
